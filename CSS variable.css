@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div{
+  border: 1px solid red;
+  width: 100px;
+  height: 100px;
+}
+.controls{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+  margin-left: 7vw;
+}
+.center-container{
+  width: 30vw;
+  height: 40vh;
+  
+}
+
