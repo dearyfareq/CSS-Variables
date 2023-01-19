@@ -6,7 +6,9 @@ body{
   background-image: url(/background.png);
 }
 :root{
-  --color: red;
+  --cardColor: red;
+  --boxSpread: 100px;
+  --boxColor: rgb(60, 78, 87);
 }
 .controls{
   display: flex;
@@ -20,8 +22,8 @@ body{
   width: 20vw;
   height: 50vh;
   margin: 20vh auto 5vh auto;
-  background-color: var(--color);
-  box-shadow: 0px 0px 10px black;
+  background-color: var(--cardColor);
+  box-shadow: 0px 0px var(--boxSpread) var(--boxColor);
 }
 .container{
   display: flex;
