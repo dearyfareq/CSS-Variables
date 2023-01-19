@@ -1,9 +1,12 @@
-* {
+*{
   margin: 0;
   padding: 0;
 }
-body{
+body{  
   background-image: url(/background.png);
+  background-repeat: no-repeat;
+  background-size: 101vw 100vh;
+  color: #000936;
 }
 :root{
   --cardColor: rgb(60, 78, 87);
@@ -16,7 +19,6 @@ body{
   justify-content: space-around;
   width: 20vw;
   border: 1px solid transparent;
-
 }
 .card{
   width: 20vw;
@@ -24,6 +26,7 @@ body{
   margin: 20vh auto 5vh auto;
   background-color: var(--cardColor);
   box-shadow: 0px 0px var(--boxSpread) var(--boxColor);
+  border-radius: 10%;
 }
 .container{
   display: flex;
@@ -34,4 +37,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+label{
+  color: aliceblue;
 }
