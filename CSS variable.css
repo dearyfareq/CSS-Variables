@@ -6,7 +6,7 @@ body{
   background-image: url(/background.png);
 }
 :root{
-  --cardColor: red;
+  --cardColor: rgb(60, 78, 87);
   --boxSpread: 100px;
   --boxColor: rgb(60, 78, 87);
 }
