@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/CSS variable.css">
-</head>
-<body>
-    <div class="center-container">
-        <div class="card">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/CSS variable.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card"></div>
+      <div class="controls">
+        <div class="sub-control">
+          <label>shadow blur</label><input type="range" name="box-blur" />
         </div>
-        <div class="controls">
-            <input type="range" name="box-blur">
-            <input type="range" name="box-color">
-            <input type="color" name="card-color">
+        <div class="sub-control">
+          <label>shadow color</label><input type="color" name="box-color" />
         </div>
+        <div class="sub-control">
+          <label>card color</label><input type="color" name="card-color" />
+        </div>
+      </div>
     </div>
     <script src="/CSS variable.js" async defer></script>
-</body>
-
+  </body>
 </html>
